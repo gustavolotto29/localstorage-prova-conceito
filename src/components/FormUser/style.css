@@ -1,0 +1,18 @@
+form {
+  padding: 10px;
+  background-color: #969;
+}
+
+div {
+  display: grid;
+  padding: 10px;
+  width: 50%;
+}
+
+label {
+  padding: 5px;
+}
+
+.div-send input {
+  padding: 5px;
+}
