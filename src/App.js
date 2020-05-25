@@ -1,28 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
-import FormUser from './components/FormUser/index';
-import FormListUser from './components/FormListUser';
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+
+import GlobalStyle from './styles/global';
+
+import Routes from './routes';
 
 function App() {
-  const [listUser, setListUser] = useState([]);
-
-  function TESTE() {
-    setListUser([...listUser, localStorage.getItem('username')]);
-    console.log(listUser);
-  }
-
   return (
-    <div className="App">
-      <main className="form-principal">
-        <ul>
-          <FormUser onSubmit />
-          <button onClick={TESTE}></button>
-        </ul>
-        {listUser.map((user) => (
-          <FormListUser key={user} user={user} />
-        ))}
-      </main>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+      <GlobalStyle />
+    </>
   );
 }
 

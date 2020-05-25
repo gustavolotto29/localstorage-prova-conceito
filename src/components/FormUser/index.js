@@ -15,20 +15,9 @@ function FormUser() {
 
   return (
     <form onSubmit={onSubmit}>
-      <div className="div-name">
-        <label htmlFor="">Nome do usuário</label>
-        <input
-          type="text"
-          onChange={(e) => setUsername(e.target.value)}
-        ></input>
-      </div>
-      <div className="div-password">
-        <label htmlFor="">Senha</label>
-        <input type="password" onChange={(e) => setPassword(e.target.value)} />
-      </div>
-      <div className="div-send">
-        <button type="submit">Salvar</button>
-      </div>
+      <div className="div-name"></div>
+      <div className="div-password"></div>
+      <div className="div-send"></div>
     </form>
   );
 }
