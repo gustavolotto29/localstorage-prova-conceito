@@ -11,8 +11,14 @@ function Main({ history }) {
   async function handleSubmit(e) {
     e.preventDefault();
 
-    if (!username || !password) {
-      alert('Por favor. Preencha todos os campos');
+    if (!username && !password) {
+      alert('Por favor. Preencha os campos "Nome do Usuário" e "senha"');
+    }
+    if (!username && password){
+      alert('Por favor.Preencha o campo "Nome do Usuário"')
+    }
+    if (!password && username){
+      alert('Por favor. Preencha o campo "senha"')
     }
 
     const user = autenticate({ username, password });
