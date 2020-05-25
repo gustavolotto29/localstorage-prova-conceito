@@ -5,8 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Como rodar
 
-1 - Executar o comando '''npm install'''
-2 - Executar o comando '''npm start'''
+1 - Executar o comando ```npm install```
+
+2 - Executar o comando ```npm start```
+
 3 - Para entrar no sistema basta escolher um dos usuarios cadastrados abaixo
 
 ## Logins Cadastrados
