@@ -3,6 +3,7 @@ export const autenticate = (user) => {
     (userData) => userData.username === user.username
   );
 
+
   if (userIndex < 0) {
     return null;
   }
@@ -13,6 +14,8 @@ export const autenticate = (user) => {
 
   return usersData[userIndex];
 };
+//A ideia foi criar um fakeApi por enquanto para mostrar o processo de prova de conceito de uma localstorage para
+// o usuário vizualizar seu username após o login.
 
 const usersData = [
   {
@@ -23,17 +26,12 @@ const usersData = [
   {
     name: 'Edmilson Francino',
     username: 'edola',
-    password: 'brabo123',
+    password: 'edola123',
   },
   {
     name: 'Gustavo Lotto',
     username: 'lottera',
     password: '654321',
-  },
-  {
-    name: 'Pedro Santos',
-    username: 'pedroh2s',
-    password: 'pedro2sh',
   },
   {
     name: 'Matheus Boareto',
@@ -44,5 +42,10 @@ const usersData = [
     name: 'Gabriel Lara',
     username: 'gabriel',
     password: '5eh10',
+  },
+  {
+    name: 'Pedro Henrique',
+    username: 'pedroh2s',
+    password: 'pedro',
   },
 ];

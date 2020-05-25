@@ -1,3 +1,6 @@
+Projeto de LocalStorage para prova de conceito. Foi feito diante do usuário. Tendo algumas validações de cadastro,
+storage verifica o usarname. E mostra após o usuário realiza o login corretamente. Puxando seu nome. E mostrando um bem vindo.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

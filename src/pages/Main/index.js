@@ -12,7 +12,7 @@ function Main({ history }) {
     e.preventDefault();
 
     if (!username || !password) {
-      alert('Preencha todos os campos');
+      alert('Por favor. Preencha todos os campos');
     }
 
     const user = autenticate({ username, password });
@@ -21,7 +21,7 @@ function Main({ history }) {
       setUsername('');
       setPassword('');
 
-      alert('Usuario e senha errados');
+      alert('Usuario e senha se encontram errados. Por favor coloque as informações novamente');
 
       return;
     }
@@ -34,7 +34,7 @@ function Main({ history }) {
   return (
     <Container>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="username">Nome do usuário</label>
+        <label htmlFor="username">Nome do Usuário</label>
         <input
           id="username"
           value={username}
