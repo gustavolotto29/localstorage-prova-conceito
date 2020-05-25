@@ -1,15 +1,23 @@
 # Projeto ReactJS para prova de conceito usando LocalStorage
 
 Este é um trabalho da Faculdade de Tecnologia Termomecanica da matéria de
-Linguagem de Programação 4
+Linguagem de Programação 4.
 
-Para vizualizar o projeto, basta executar os comandos `npm install` e `npm run start` no terminal.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Como rodar?
+
+1 - Executar o comando `npm install`
+
+2 - Executar o comando `npm run start`
+
+3 - Para entrar no sistema basta escolher um dos usuarios cadastrados abaixo
 
 ## Como funciona?
 
 A idéia da prova de conceito é que um usuário possa ser autenticado e seus dados serão salvos no LocalStorage do navegador.
 
-- Para a autenticação de usuários foi criada uma FakeAPI com os seguintes dados de usuário:
+- Para a autenticação de usuários foi criada uma FakeAPI com os seguintes dados de usuário, basta escolher um:
 
 ```json
 [
